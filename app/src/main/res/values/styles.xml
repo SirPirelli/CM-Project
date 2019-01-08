@@ -1,0 +1,34 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="LoginStyle" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorAccent">#ffffff</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AddNoteStyle" parent="Theme.AppCompat.DayNight">
+        <item name="colorPrimary">#201f1d</item>
+        <item name="android:textColorPrimary">#bebdbd</item>
+        <item name="android:fontFamily">@font/conthrax</item>
+        <item name="android:actionMenuTextColor">#bebdbd</item>
+        <item name="colorAccent">#9e9e9e</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/carter_one</item>
+        <item name="android:textSize">23sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+</resources>

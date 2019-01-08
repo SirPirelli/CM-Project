@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1064974099845",
+    "firebase_url": "https://detectivephiladelphia.firebaseio.com",
+    "project_id": "detectivephiladelphia",
+    "storage_bucket": "detectivephiladelphia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064974099845:android:455d1bf0e0cdb3ef",
+        "android_client_info": {
+          "package_name": "goldenegg.detectivephiladelphia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064974099845-0jlj3i9hp1rim9qv04u9i7htougjbmrj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAj_MMRAl9bTmMhwmmtZN0mU_a5zcswJ4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

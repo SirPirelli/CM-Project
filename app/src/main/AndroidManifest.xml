@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="goldenegg.detectivephiladelphia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@drawable/ico"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/ico"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.DayNight.NoActionBar">
+        <activity
+            android:name=".LoginActivity"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:noHistory="true"
+            android:theme="@style/LoginStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Video"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Locations"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Images"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity android:name=".mediamenu" />
+        <activity android:name=".Story" />
+        <activity android:name=".LocationDetails" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+        <activity
+            android:name=".Menu"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ResetPassword"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/LoginStyle"/>
+        <activity
+            android:name=".Personas"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Cases"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+
+        <!-- NOTEBOOK ACTIVITIES -->
+        <activity
+            android:name=".NotebookActivities.MainNotebook"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NotebookActivities.AddNote"
+            android:configChanges="orientation"
+            android:label="Add Note"
+            android:screenOrientation="portrait"
+            android:theme="@style/AddNoteStyle"></activity>
+    </application>
+
+</manifest>
